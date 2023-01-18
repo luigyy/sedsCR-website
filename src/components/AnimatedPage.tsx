@@ -13,7 +13,7 @@ const AnimatedPage: React.FC<AnimatedPageProps> = ({ children }) => {
   };
   return (
     <motion.div
-      variants={animations}
+      //   variants={animations}   uncomment to activate transitions
       initial="initial"
       animate="animate"
       exit="exit"
