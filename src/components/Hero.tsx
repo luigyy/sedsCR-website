@@ -1,5 +1,6 @@
 import React from "react";
 import NavbarForHero from "./NavbarForHero";
+import { Link } from "react-router-dom";
 
 interface HeroProps {}
 
@@ -33,19 +34,6 @@ const Hero: React.FC<HeroProps> = ({}) => {
           <img className=" mt-10 h-4/5" src="pic.jpg" />
         </div>
       </div>
-      {/* nav  */}
-      <div className="fixed bottom-10 flex gap-24">
-        <h1
-          style={{ fontFamily: "Lemon Milk" }}
-          className="text-accent font-semibold"
-        >
-          Home
-        </h1>
-        <h1 style={{ fontFamily: "Lemon Milk" }}>Projects</h1>
-        <h1 style={{ fontFamily: "Lemon Milk" }}>About</h1>
-        <h1 style={{ fontFamily: "Lemon Milk" }}>Contact</h1>
-      </div>
-      {/* nav  */}
     </div>
   );
 };
