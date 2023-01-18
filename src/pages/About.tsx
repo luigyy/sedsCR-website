@@ -6,7 +6,7 @@ interface AboutProps {}
 const About: React.FC<AboutProps> = ({}) => {
   return (
     <AnimatedPage>
-      <div>test</div>
+      <div className="h-screen px-16 py-10 ">test</div>
     </AnimatedPage>
   );
 };

@@ -6,7 +6,7 @@ interface ProjectsProps {}
 const Projects: React.FC<ProjectsProps> = ({}) => {
   return (
     <AnimatedPage>
-      <div>Projects</div>
+      <div className="h-screen px-16 py-10">Projects</div>
     </AnimatedPage>
   );
 };
